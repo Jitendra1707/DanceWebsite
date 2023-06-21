@@ -1,0 +1,49 @@
+extends base.pug
+
+block scripts
+    script(src='/static/index.js')
+
+block style 
+    style
+      include ../static/style.css
+      include ../static/aboutstyle.css
+
+
+block content 
+    div.container 
+    h1 Welcome to Jitu's Dance Classes
+    p
+      | Jitu's Dance Classes is a premier dance academy that offers a wide range of dance styles and programs for all ages and skill levels. Whether you're a beginner looking to explore the world of dance or an experienced dancer seeking to refine your technique, we have something for everyone.
+    h2 Our Mission
+    p
+      | At Jitu's Dance Classes, our mission is to inspire and empower individuals through the art of dance. We strive to create a supportive and inclusive environment where students can express themselves creatively, build confidence, and develop lifelong skills. Our experienced instructors are dedicated to helping each student reach their full potential.
+    h2 Our Dance Styles
+    ul
+      li Bollywood Dance
+      li Hip Hop
+      li Contemporary
+      li Jazz
+      li Ballet
+      li Latin Dance
+      br
+    h2 Why Choose Jitu's Dance Classes?
+    p
+      | - Experienced and passionate instructors
+      br
+      | - Small class sizes for personalized attention
+      br
+      | - State-of-the-art facilities
+      br
+      | - Flexible class schedules
+      br
+      | - Performance opportunities
+      br
+      | - Fun and inclusive atmosphere
+      br
+      | - Affordable pricing options
+      br
+      br
+    a(href="/contact") 
+        h2 Join Us Today!
+    p
+      | Whether you're looking to learn a new dance style, improve your technique, or simply have fun, Jitu's Dance Classes is the place for you. Join our dance family today and discover the joy of dancing. Contact us to book a trial class or for any inquiries. We can't wait to dance with you!

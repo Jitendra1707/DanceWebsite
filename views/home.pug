@@ -1,0 +1,52 @@
+extends base.pug
+
+block scripts
+    script(src='/static/index.js')
+
+block style 
+    style
+      include ../static/style.css
+
+block content 
+    section#introSection
+        div Welcome to Jitu's Dance Academy
+        div.small Eat Sleep Dance Repeat
+
+    section#missionSection
+        h2 Our Mission
+        div.card
+            h3 Dance Perfection
+            div.card-box
+                div.card-img
+                    img(src="/static/img/1.png")
+                div.card-content
+                    p Here You Learn The Dance With Perfection
+
+        div.card
+            h3 Dance the way you like
+            div.card-box
+                div.card-img
+                    img(src="/static/img/2.png")
+                div.card-content
+                    p Dance is the thing that everyone wants to learn as they want, here you get what you want.
+
+        div.card
+            h3 Expert Teaching
+            div.card-box
+                div.card-img
+                    img(src="/static/img/3.png")
+
+                div.card-content
+                    p In jitu's dance academy you get trained dance teacher that teach you dance with perfection.
+
+    section#sponsorsSection
+        h2 Our Sponsor
+        div#spon
+            a(href='/')
+                img(src="/static/img/logo1.png", alt="Sponsor Image", class="spImage")
+            a(href='/')
+                img(src="/static/img/logo2.png", alt="Sponsor Image", class="spImage")
+            a(href='/')
+                img(src="/static/img/logo3.png", alt="Sponsor Image", class="spImage")
+            a(href='/')
+                img(src="/static/img/logo4.png", alt="Sponsor Image", class="spImage")
